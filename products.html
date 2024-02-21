@@ -3,12 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="products.css" />
     <title>Productos - Barberia Alura</title>
 </head>
 
-<body>
-    <header></header>
+<body class="container">
+    <header class="head">
+        <h1 class="logo"><img src="assets/logo.png" alt="Logo de la barbería"></h1>
+        <nav class="navbar">
+            <ul class="lista">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="products.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <ul class="servicios">
+            <li>
+                <h2>Cabello</h2>
+                <img src="assets/cabello.jpg" alt="Imagen del cabello">
+                <p class="descripcion">Con tijera o maquina, a gusto del cliente.</p>
+                <p class="precio">$10</p>
+            </li>
+            <li>
+                <h2>Barba</h2>
+                <img src="assets/barba.jpg" alt="Imagen de una barba">
+                <p class="descripcion">Corte y diseño profesional de barba.</p>
+                <p class="precio">$8</p>
+            </li>
+            <li>
+                <h2>Cabello + Barba</h2>
+                <img src="assets/cabello+barba.jpg" alt="Imagen de un cliente con ambos productos">
+                <p class="descripcion">Paquete completo de cabello y barba.</p>
+                <p class="precio">$20</p>
+            </li>
+        </ul>
+    </main>
+    <footer class="footer">
+        <img src="assets/logo-blanco.png" alt="Logo Blanco">
+        <p>&copy; 2023 Barberia Alura. </p>
+    </footer>
 </body>
 
 </html>
