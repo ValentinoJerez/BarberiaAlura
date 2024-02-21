@@ -1,0 +1,40 @@
+.general{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.lista {
+    list-style: none;
+    margin-top: 110px;
+    font-size: 25px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(112, 112, 112);
+}
+
+.footer{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
