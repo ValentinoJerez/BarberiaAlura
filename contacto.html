@@ -23,31 +23,41 @@
     <main>
         <form action="" class="formulario">
             <label for="nombreapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreapellido" class="input">
+            <input type="text" id="nombreapellido" class="input" required placeholder="Nombre y Apellido">
 
             <label for="email">Correo Electrónico</label>
-            <input type="text" id="correoelectronico" class="input">
+            <input type="text" id="correoelectronico" class="input" required placeholder="ejemplo@alura.com.ar">
 
             <label for="telefono">Teléfono</label>
-            <input type="text" id="telefono" class="input">
+            <input type="tel" id="telefono" class="input" required placeholder="+54 657 892 3456">
 
             <label for="mensaje">Mensaje</label>
-            <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+            <textarea name="" id="mensaje" cols="30" rows="10" required></textarea>
 
-            <div class="botones">
+            <fieldset class="botones">
                 <h3>¿Cómo le gustaría que nos contactemos?</h3>
 
                 <label for="radio-email" class="boton"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
                 
                 <label for="radio-telefono" class="boton"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
                 
-                <label for="radio-whatsapp" class="boton"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                <label for="radio-whatsapp" class="boton"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
                 
-            </div>
+            </fieldset>
+
+            <fieldset class="select">
+                <label for="">¿En que turno quiere atenderse?</label>
+                <select name="" id="">
+                    <option value="">Seleccione una opción</option>
+                    <option value="mañana">Turno Mañana </option>
+                    <option value="tarde">Turno Tarde</option>
+                    <option value="">Turno Noche</option>
+                </select>
+            </fieldset>
 
             <label for="" class="checkbox"><input type="checkbox">¿Le gustaria recibir novedades de la Barberia Alura?</label>
 
-            <input type="submit" value="Enviar formulario">
+            <input type="submit" value="Enviar formulario" class="enviar">
         </form>
     </main>
     <footer class="footer">
