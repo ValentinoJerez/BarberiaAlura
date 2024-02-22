@@ -5,6 +5,36 @@
     background-color:rgb(39, 39, 39)
 }
 
+.head{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.lista {
+    list-style: none;
+    margin-top: 110px;
+    font-size: 25px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(112, 112, 112);
+}
+
 .banner {
     width: 100%;
     height: 100vh;
@@ -15,11 +45,14 @@
 .titulo{
     font-size: 55px; 
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .subtitulo{
     text-align: left;
     font-size: 35px;
+    padding: 10px;
 }
 
 /*Parrafos*/
@@ -40,11 +73,19 @@
 
 .items {
     font-size: 22px;
-    margin: 0; 
+    margin: 5px; 
 }
 
 .imagendiferenciales {
     width: 400px;
     height: auto;
     margin-right: 250px;
+    padding: 15px;
+}
+
+.footer{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 15px;
 }

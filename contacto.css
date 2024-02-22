@@ -1,5 +1,7 @@
 .general{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(39, 39, 39);
+    color: white;
 }
 
 .head{
@@ -85,6 +87,7 @@ form label, form h3{
     border: none;
     border-radius: 5px;
     transition: 1s background;
+    margin-bottom: 10px;
 }
 
 .enviar:hover{
@@ -94,16 +97,17 @@ form label, form h3{
 
 table {
     margin: 40px 40px;
+    border-collapse: collapse; /* Esto asegura que los bordes de las celdas se unan */
 }
 
 thead {
-    background: #555555;
+    background: #555;
     color: white;
     font-weight: bold;
 }
 
 td, th {
-    border: 1px solid #000000;
+    border: 1px solid black; /* Asegúrate de que el color del borde contraste con el fondo de la tabla */
     padding: 8px 15px;
 }
 
