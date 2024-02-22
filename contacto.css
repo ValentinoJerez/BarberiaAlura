@@ -92,6 +92,21 @@ form label, form h3{
     background-color: rgb(70, 73, 73);
 }
 
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
 .footer{
     background-color: #000000;
     text-align: center;
