@@ -41,16 +41,28 @@ form{
     margin: 40px 0;
 }
 
-form label{
+form label, form h3{
     display: block;
     font-size: 20px;
     margin: 0 0 5px;
 }
 
-form input{
+.input{
     display: block;
     margin: 0 0 10px;
     padding: 5px;
+}
+
+.botones{
+    margin-top: 10px;
+}
+
+.boton{
+    padding: 5px;
+}
+
+.checkbox{
+    margin: 15px 0;
 }
 
 .footer{
