@@ -1,17 +1,19 @@
 /*Pagina completa*/
-.general{
+.general {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-color:rgb(39, 39, 39)
+    background: rgb(57,57,57);
+    background: linear-gradient(0deg, rgba(57,57,57,1) 39%, rgba(144,144,144,1) 81%);
 }
 
-.head{
+/* NavBar */
+.head {
     background-color: white;
     display: flex;
     justify-content: space-around;
 }
 
-.logo{
+.logo {
     margin-left: 50px;
 }
 
@@ -31,36 +33,44 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     color: rgb(112, 112, 112);
 }
 
-.banner {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
+.carruselinmovil {
+    display: flex;
+    justify-content: center;
+    /* Esto alineará horizontalmente las imágenes */
+    padding: 40px;
 }
 
-/*Titulo*/
-.titulo{
-    font-size: 55px; 
+.imagen1,
+.imagen2,
+.imagen3 {
+    width: 400px;
+    margin: 10px;
+}
+
+/*Titulo y Subtitulo*/
+.titulo {
+    font-size: 55px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.subtitulo{
+.subtitulo {
     text-align: left;
     font-size: 35px;
     padding: 10px;
 }
 
 /*Parrafos*/
-.texto{
+.texto {
     font-size: 25px;
 }
 
-.textomision{
+.textomision {
     text-align: center;
     font-size: 25px;
 }
@@ -73,7 +83,7 @@ nav a:hover{
 
 .items {
     font-size: 22px;
-    margin: 5px; 
+    margin: 5px;
 }
 
 .imagendiferenciales {
@@ -83,7 +93,7 @@ nav a:hover{
     padding: 15px;
 }
 
-.footer{
+.footer {
     background-color: #000000;
     text-align: center;
     color: white;
