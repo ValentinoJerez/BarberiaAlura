@@ -40,7 +40,6 @@ nav a:hover {
 .carruselinmovil {
     display: flex;
     justify-content: center;
-    /* Esto alineará horizontalmente las imágenes */
     padding: 40px;
 }
 
@@ -111,16 +110,26 @@ nav a:hover {
     align-items: center;
 }
 
+.listamisiones{
+    text-align: left;
+    list-style: circle;
+    margin-left: 250px;
+}
+
 .items {
     font-size: 22px;
     margin: 5px;
 }
 
 .imagendiferenciales {
-    width: 400px;
+    width: 300px;
     height: auto;
     margin-right: 250px;
-    padding: 15px;
+    padding: 20px;
+}
+
+.video{
+    padding: 20px;
 }
 
 .footer {
