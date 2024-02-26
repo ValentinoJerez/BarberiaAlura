@@ -67,11 +67,14 @@ nav a:hover {
 /*Parrafos*/
 .texto {
     font-size: 25px;
+    padding: 15px;
+    text-align: center;
 }
 
 .textomision {
-    text-align: center;
     font-size: 25px;
+    margin-right: 10px;
+    margin-left: 125px;
 }
 
 .contenedor {
@@ -82,18 +85,6 @@ nav a:hover {
 .mision-imagen {
     display: flex;
     align-items: center;
-}
-
-.texto {
-    font-size: 25px;
-    padding: 15px;
-    text-align: center;
-}
-
-.textomision {
-    font-size: 25px;
-    margin-right: 10px;
-    margin-left: 125px;
 }
 
 .utensilios {
@@ -129,7 +120,8 @@ nav a:hover {
 }
 
 .video{
-    padding: 20px;
+    text-align: center;
+    margin: 30px;
 }
 
 .footer {
@@ -137,4 +129,38 @@ nav a:hover {
     text-align: center;
     color: white;
     padding: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    h1, h3{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .imagen1, .imagen3{
+        opacity: 0%;
+    }
+    .imagen2{
+        margin: 10px;
+    }
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .textomision {
+        text-align: center;
+        font-size: 30px;
+    }
+    .utensilios{
+        opacity: 0%;
+    }
+    .listamisiones{
+        margin-left: 150px;
+    }
+    .imagendiferenciales{
+        opacity: 0%;
+    }
 }
